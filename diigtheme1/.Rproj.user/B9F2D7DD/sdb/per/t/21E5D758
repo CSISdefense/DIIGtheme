@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#'Theme Inspired by FiveThirtyEight\n#'\n#'@title Theme Inspired by FiveThirtyEight\n#'@description A package that emulates the style of FiveThirtyEight plots.\n\ntheme_silverwaswrong <- function(base_size = 12, base_family = \"sans\") {\n  (theme_foundation(base_size = base_size, base_family = base_family)\n   + theme(\n     line = element_line(colour = \"black\"),\n     rect = element_rect(fill = ggthemes_data$fivethirtyeight[\"ltgray\"],\n                         linetype = 0, colour = NA),\n     text = element_text(colour = ggthemes_data$fivethirtyeight[\"dkgray\"]),\n     axis.title = element_blank(),\n     axis.text = element_text(),\n     axis.ticks = element_blank(),\n     axis.line = element_blank(),\n     legend.background = element_rect(),\n     legend.position = \"bottom\",\n     legend.direction = \"horizontal\",\n     legend.box = \"vertical\",\n     panel.grid = element_line(colour = NULL),\n     panel.grid.major =\n       element_line(colour = ggthemes_data$fivethirtyeight[\"medgray\"]),\n     panel.grid.minor = element_blank(),\n     # unfortunately, can't mimic subtitles\n     plot.title = element_text(hjust = 0, size = rel(1.5), face = \"bold\"),\n     plot.margin = unit(c(1, 1, 1, 1), \"lines\"),\n     strip.background = element_rect()))\n}\n",
+    "created" : 1484850143626.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2467643147",
+    "id" : "21E5D758",
+    "lastKnownWriteTime" : 1484837643,
+    "last_content_update" : 1484837643,
+    "path" : "~/test.1/R/FiveThirtyEight.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

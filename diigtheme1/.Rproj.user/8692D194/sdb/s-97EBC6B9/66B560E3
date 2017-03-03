@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Using Google Fonts in R on Windows\n\n\n#Downloading Font ###############################################################\n\n  Use the following website to access available google fonts:\n  https://fonts.google.com/\n\n  Download the font or fonts of your choosing\n  Find the zip file typically in C:\\Users\\\"User Name\"\\Downloads\n  Extract font files\n  Move Extracted Font Files to C:\\Windows\\Fonts\n\n#Importing Fonts into R #########################################################\n\n  Ensure extrafont package is installed\n  Ensure Downloading Font step was completed and font files are in\n    C:\\Windows\\Fonts\n\n  Use function font_import() to import system fonts\n  You will recieve this message\n\n    Importing fonts may take a few minutes, depending on the number of fonts and     the speed of the system.\n    Continue?\n\n  Type \"y\" and hit enter\n  The function will extract all files in the location and register them with       the fonts database\n  Once the font_import() function is done running, check to ensure font was        registered in the font database\n\n# Registering Fonts with R ######################################################\n\n  Confirm the font was registered with the font database\n  Use function loadfonts() to register the font with pdfFonts()\n  Once this has been completed close RStudio and Reopen RStudio\n\n# Using New Google Fonts in R ##################################################\n\n  Load extrafont package\n  Use function fonts() to acquire family name used for the newly registered font\n  Utilize Google Font Family Name from fonts() list to use Google Font\n",
+    "created" : 1488472985988.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1307112945",
+    "id" : "66B560E3",
+    "lastKnownWriteTime" : 1488473638,
+    "last_content_update" : 1488473638858,
+    "path" : "H:/diigtheme1/REGISTER GOOGLE FONTS",
+    "project_path" : "REGISTER GOOGLE FONTS",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

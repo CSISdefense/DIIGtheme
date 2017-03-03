@@ -1,0 +1,40 @@
+Using Google Fonts in R on Windows
+
+
+#Downloading Font ###############################################################
+
+  Use the following website to access available google fonts:
+  https://fonts.google.com/
+
+  Download the font or fonts of your choosing
+  Find the zip file typically in C:\Users\"User Name"\Downloads
+  Extract font files
+  Move Extracted Font Files to C:\Windows\Fonts
+
+#Importing Fonts into R #########################################################
+
+  Ensure extrafont package is installed
+  Ensure Downloading Font step was completed and font files are in
+    C:\Windows\Fonts
+
+  Use function font_import() to import system fonts
+  You will recieve this message
+
+    Importing fonts may take a few minutes, depending on the number of fonts and     the speed of the system.
+    Continue?
+
+  Type "y" and hit enter
+  The function will extract all files in the location and register them with       the fonts database
+  Once the font_import() function is done running, check to ensure font was        registered in the font database
+
+# Registering Fonts with R ######################################################
+
+  Confirm the font was registered with the font database
+  Use function loadfonts() to register the font with pdfFonts()
+  Once this has been completed close RStudio and Reopen RStudio
+
+# Using New Google Fonts in R ##################################################
+
+  Load extrafont package
+  Use function fonts() to acquire family name used for the newly registered font
+  Utilize Google Font Family Name from fonts() list to use Google Font

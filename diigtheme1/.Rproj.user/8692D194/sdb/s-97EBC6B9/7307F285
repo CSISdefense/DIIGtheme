@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: diigtheme1\nType: Package\nTitle: DIIG Background & Grid\nVersion: 0.1.1\nAuthor: Andrew\nMaintainer: Andrew <ahowe@csis.org>\nDescription: This package generates a standardized background and grid for\n    makign plots.\nLicense: BSD_2_clause\nLazyData: TRUE\nRoxygenNote: 5.0.1\nImports: ggplot2, extrafont\nDepends: ggplot2, extrafont\nSuggests: testthat\n",
+    "created" : 1486668522752.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1493444597",
+    "id" : "7307F285",
+    "lastKnownWriteTime" : 1486670176,
+    "last_content_update" : 1486670176274,
+    "path" : "H:/diigtheme1/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

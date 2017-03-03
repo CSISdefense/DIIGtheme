@@ -1,0 +1,14 @@
+Package: diigtheme1
+Type: Package
+Title: DIIG Background & Grid
+Version: 0.1.1
+Author: Andrew
+Maintainer: Andrew <ahowe@csis.org>
+Description: This package generates a standardized background and grid for
+    makign plots.
+License: BSD_2_clause
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Imports: ggplot2, extrafont
+Depends: ggplot2, extrafont
+Suggests: testthat

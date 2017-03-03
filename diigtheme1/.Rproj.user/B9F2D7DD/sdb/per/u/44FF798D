@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "ggplot(mtcars) +\n  geom_point(aes(x = wt, y = mpg, colour=factor(gear))) +\n  diigtheme1:::theme_diigplot() +\n  diigtheme1:::theme_diiglegend() +\n  diigtheme1:::theme_diigtext()\n\n\nggplot(mtcars) +\n  geom_point(aes(x = wt, y = mpg, colour=factor(gear))) +\n  diigtheme1:::diiggraph()",
+    "created" : 1485270969482.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1958338334",
+    "id" : "44FF798D",
+    "lastKnownWriteTime" : 31244173393002613,
+    "last_content_update" : 1485458602022,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
